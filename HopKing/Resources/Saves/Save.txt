@@ -1,0 +1,42 @@
+<Keybind Data
+	Action:JUMP
+	Key:32
+	Scancode:44
+.
+	Action:LEFT
+	Key:97
+	Scancode:4
+.
+	Action:RIGHT
+	Key:100
+	Scancode:7
+.
+	Action:UP
+	Key:119
+	Scancode:26
+.
+	Action:DOWN
+	Key:115
+	Scancode:22
+.
+	Action:CONFIRM
+	Key:13
+	Scancode:40
+.
+	Action:CANCEL
+	Key:27
+	Scancode:41
+.
+	Action:PAUSE
+	Key:112
+	Scancode:19
+.
+>
+<Player Data
+	PlayerPos:1000,400
+	Velocity:0,0
+	Jumps:0
+	Falls:0
+	StartTime:2022-06-14 20:15:43.0000000
+	Timeplayed:61
+>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Headers">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RepellingObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RepelSwarmManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimator.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicModifierZone.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PullPhysicZone.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustedGravityZone.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybindings.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybinding.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSettings.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyRebindingMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingStarManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuStyle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerCollider.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnd.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeWriter.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RepellingObject.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RepelSwarmManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimator.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicModifierZone.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PullPhysicZone.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjustedGravityZone.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybindings.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsMenu.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSettings.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyRebindingMenu.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybinding.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingStarManager.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuStyle.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerCollider.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnd.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeWriter.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Game Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

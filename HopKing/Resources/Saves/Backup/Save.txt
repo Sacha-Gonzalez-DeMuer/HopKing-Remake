@@ -1,0 +1,8 @@
+<Player Data
+	PlayerPos:807.492,72.7472
+	Velocity:0,0
+	Jumps:326
+	Falls:49
+	StartTime:2022-06-12 13:07:02.0000000
+	Timeplayed:505
+>
