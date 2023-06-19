@@ -66,7 +66,6 @@ std::vector<Keybinding*> Keybindings::GetKeybindings()
 	}
 	else
 	{
-		throw std::runtime_error("Keybindings.cpp: no keybindings set\n");
 		InitializeDefaultBinds();
 		SaveManager::Get()->SaveData(this);
 		return std::vector<Keybinding*>();

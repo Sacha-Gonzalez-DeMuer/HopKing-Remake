@@ -29,7 +29,7 @@ Player::Player()
 	, m_pSpriteAnimator { }
 	, m_HorScale{ 1 }
 	, m_FallTime{ }
-	, m_LongFallThreshold{ .7f }
+	, m_LongFallThreshold{ .5f }
 	, m_JumpedDir{ }
 	, m_TerminalVelocity{-2000}
 	, m_TimesJumped{}
@@ -407,9 +407,9 @@ void Player::SetPositionCheat(const Point2f& pos)
 {
 	//player.role == teacher ? dev.AddToExamScore(1) : player.Ban(); 
 
-	m_Velocity *= 0;
-	m_Shape.left = pos.x + m_Shape.width;
-	m_Shape.bottom += pos.y; 
+	//m_Velocity *= 0;
+	//m_Shape.left = pos.x + m_Shape.width;
+	//m_Shape.bottom += pos.y; 
 }
 
 
